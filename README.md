@@ -252,5 +252,3 @@ The `struct`s you decorate with the `StronglyTypedId` attribute must be marked `
 [Credits]: #credits
 
 `StronglyTypedId` wouldn't work if not for [AArnott's CodeGeneration.Roslyn](https://github.com/AArnott/CodeGeneration.Roslyn) library.
-
-The build process and general design of the library was modelled on the [RecordGenerator](https://github.com/amis92/RecordGenerator/blob/master/README.md) project, which is similar to this project, but can be used to generate immutable Record types.
